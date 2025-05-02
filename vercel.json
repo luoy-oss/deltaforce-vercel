@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "public/index.php",
-      "use": "@vercel-community/php",
-      "config": {
-        "runtime": "php@8.0",
-        "php": {
-          "command": "php think run"
-        }
-      }
+  "functions": {
+    "public/*.php": {
+      "runtime": "vercel-php@0.7.3"
+    },
+    "think": {
+      "runtime": "vercel-php@0.7.3"
     }
-  ],
+  },
   "routes": [
+    {
+      "src": "/think/(.*)",
+      "dest": "think"
+    },
     {
       "src": "/(.*)",
       "dest": "public/index.php"
