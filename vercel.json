@@ -4,14 +4,14 @@
     "api/*.php": {
       "runtime": "vercel-php@0.7.3"
     },
-    "think": {
+    "api/think": {
       "runtime": "vercel-php@0.7.3"
     }
   },
   "routes": [
     {
       "src": "/think/(.*)",
-      "dest": "think"
+      "dest": "api/think"
     },
     {
       "src": "/(.*)",
