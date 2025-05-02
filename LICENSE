@@ -1,7 +1,7 @@
-DeltaForce API çš„è®¸å¯ä¿¡æ¯
+DeltaForce API µÄÐí¿ÉÐÅÏ¢
 
-æœ¬é¡¹ç›®åŒ…å«ä»¥ä¸‹ä¸¤ç§è®¸å¯çš„ä»£ç ï¼š
+±¾ÏîÄ¿°üº¬ÒÔÏÂÁ½ÖÖÐí¿ÉµÄ´úÂë£º
 
-1. åŽŸåˆ›ä»£ç ï¼ˆä½œè€…ï¼šé…·æ›¦ç§‘æŠ€ï¼‰ï¼š æ ¹æ® GNU é€šç”¨å…¬å…±è®¸å¯è¯ç¬¬3ç‰ˆï¼ˆGPLv3ï¼‰æŽˆæƒã€‚ è¯¦æƒ…è¯·è§ GPL-3.0.txt æ–‡ä»¶ã€‚ ç‰ˆæƒæ‰€æœ‰ (C) 2025 é…·æ›¦ç§‘æŠ€
+1. Ô­´´´úÂë£¨×÷Õß£º¿áêØ¿Æ¼¼£©£º ¸ù¾Ý GNU Í¨ÓÃ¹«¹²Ðí¿ÉÖ¤µÚ3°æ£¨GPLv3£©ÊÚÈ¨¡£ ÏêÇéÇë¼û GPL-3.0.txt ÎÄ¼þ¡£ °æÈ¨ËùÓÐ (C) 2025 ¿áêØ¿Æ¼¼
 
-2. ThinkPHP æ¡†æž¶ï¼ˆç”±ä¸Šæµ·é¡¶æƒ³ä¿¡æ¯ç§‘æŠ€æœ‰é™å…¬å¸å¼€å‘ï¼‰ï¼š æ ¹æ® Apache è®¸å¯è¯ 2.0 ç‰ˆæŽˆæƒã€‚ è¯¦æƒ…è¯·è§ APACHE-2.0.txt æ–‡ä»¶ã€‚ ç‰ˆæƒæ‰€æœ‰ (C) 2006-2025 ThinkPHP (http://thinkphp.cn) ThinkPHPÂ® æ˜¯ä¸Šæµ·é¡¶æƒ³ä¿¡æ¯ç§‘æŠ€æœ‰é™å…¬å¸çš„æ³¨å†Œå•†æ ‡ã€‚
+2. ThinkPHP ¿ò¼Ü£¨ÓÉÉÏº£¶¥ÏëÐÅÏ¢¿Æ¼¼ÓÐÏÞ¹«Ë¾¿ª·¢£©£º ¸ù¾Ý Apache Ðí¿ÉÖ¤ 2.0 °æÊÚÈ¨¡£ ÏêÇéÇë¼û APACHE-2.0.txt ÎÄ¼þ¡£ °æÈ¨ËùÓÐ (C) 2006-2025 ThinkPHP (http://thinkphp.cn) ThinkPHP? ÊÇÉÏº£¶¥ÏëÐÅÏ¢¿Æ¼¼ÓÐÏÞ¹«Ë¾µÄ×¢²áÉÌ±ê¡£
