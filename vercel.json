@@ -1,21 +1,12 @@
 {
-  "version": 2,
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/*.php": {
-      "runtime": "vercel-php@0.7.3"
-    },
-    "api/think": {
       "runtime": "vercel-php@0.7.3"
     }
   },
   "routes": [
-    {
-      "src": "/think/(.*)",
-      "dest": "api/think"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "api/index.php"
-    }
-  ]
+    { "src": "/(.*)", "dest": "/api/index.php" }
+  ],
+  "buildCommand": "composer install --no-dev"
 }
