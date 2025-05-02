@@ -5,7 +5,10 @@
       "src": "public/index.php",
       "use": "@vercel/php",
       "config": {
-        "runtime": "php@8.0"
+        "runtime": "php@8.0",
+        "php": {
+          "command": "php think run"
+        }
       }
     }
   ],
