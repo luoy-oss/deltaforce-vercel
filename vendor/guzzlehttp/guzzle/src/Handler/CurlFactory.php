@@ -100,6 +100,9 @@ class CurlFactory implements CurlFactoryInterface
     {
         static $supportsTls12 = null;
 
+        if ( !defined('CURL_SSLVERSION_TLSv1_2')) {
+            define('CURL_SSLVERSION_TLSv1_2', 6);
+        }
         if (null === $supportsTls12) {
             $supportsTls12 = \CURL_SSLVERSION_TLSv1_2 & \curl_version()['features'];
         }
