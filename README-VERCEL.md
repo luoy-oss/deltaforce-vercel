@@ -48,14 +48,12 @@
   },
   "routes": [
     { "src": "/(.*)", "dest": "/api/index.php" }
-  ],
-  "buildCommand": "composer install --no-dev"
+  ]
 }
 ```
 
 - `functions`: 指定PHP运行时环境
 - `routes`: 将所有请求重定向到入口文件
-- `buildCommand`: 部署时执行的构建命令
 
 ### api/index.php
 
