@@ -1,7 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "public/*.php": {
+    "api/*.php": {
       "runtime": "vercel-php@0.7.3"
     },
     "think": {
@@ -15,7 +15,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "public/index.php"
+      "dest": "api/index.php"
     }
   ]
 }
