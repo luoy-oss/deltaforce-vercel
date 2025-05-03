@@ -22,7 +22,8 @@ class QQ
             'cookies' => $this->cookie,
             'allow_redirects' => false,
             'verify' => false,
-            'version' => 2.0,
+            // 移除HTTP/2版本设置，使用默认HTTP处理器
+            // 'version' => 2.0,
         ]);
     }
 

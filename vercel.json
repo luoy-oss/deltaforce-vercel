@@ -2,10 +2,17 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
     "api/*.php": {
-      "runtime": "vercel-php@0.7.3"
+      "runtime": "vercel-php@0.7.3",
+      "includeFiles": "**/*.php",
+      "excludeFiles": "{test/**,vendor/bin/**}"
     }
   },
   "routes": [
     { "src": "/(.*)", "dest": "/api/index.php" }
-  ]
+  ],
+  "build": {
+    "env": {
+      "PHP_EXTENSIONS": "curl"
+    }
+  }
 }
