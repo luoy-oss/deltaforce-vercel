@@ -687,25 +687,6 @@ class Game
             return Response::json(-1, '获取失败,检查鉴权是否过期');
         }
 
-        $placeData = $data['jData']['data']['data']['placeData'];
-        $relateMap = $data['jData']['data']['data']['relateMap'];
-        $processedData = [];
-
-        foreach ($placeData as $item) {
-            if (isset($item['objectId']) && str_contains($item['Status'], '生产')) {
-                $item['Status'] = '生产中';
-                $objectId = $item['objectId'];
-                if (isset($relateMap[$objectId])) {
-                    $relatedItem = $relateMap[$objectId];
-                    $item['primaryClass'] = $relatedItem['primaryClass'] ?? '';
-                    $item['desc'] = $relatedItem['desc'] ?? '';
-                    $item['pic'] = $relatedItem['pic'] ?? '';
-                    $item['prePic'] = $relatedItem['prePic'] ?? '';
-                }
-            }
-            $processedData[] = $item;
-        }
-
-        return Response::json(0, '获取成功', $processedData);
+        return Response::json(0, '获取成功', $data['jData']['data']['data']);
     }
 }
